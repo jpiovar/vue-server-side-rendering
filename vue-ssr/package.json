@@ -1,0 +1,26 @@
+{
+  "name": "vue-ssr",
+  "version": "1.0.0",
+  "description": "vue-server-side-rendering",
+  "author": "Juraj Piovar",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "dev-ts": "nuxt-ts",
+    "build-ts": "nuxt-ts build",
+    "start-ts": "nuxt-ts start",
+    "generate-ts": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.8.1",
+    "nuxt-ts": "^2.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "nuxt-property-decorator": "^2.3.0",
+    "ts-node": "^8.3.0"
+  }
+}
